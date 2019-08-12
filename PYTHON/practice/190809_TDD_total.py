@@ -55,4 +55,6 @@ def test_total():
     assert total([20]) == 20 # pass
     assert total([20, 30]) == 50 #pass
     assert total([20, 40, 50]) == 110 #pass
+    assert total([20, 50, 40, 80, 100, 30]) == 20 + 50 + 40 + 80 + 100 + 30
+    assert total([20, 50, 40, 80, 100, 30]) == total([20, 50, 40, 80, 100]) +30
     assert total(scores) == sum(scores) #pass
