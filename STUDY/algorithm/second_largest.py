@@ -1,9 +1,10 @@
-def get_second_largest(n):
-    if len(set(n)) == 1:
+def get_second_largest(ranks):
+    if len(set(ranks)) == 1:
         return 'equality'
     else:
-        n.remove(max(n))
-        return max(n)
+        max_rank = max(ranks)
+        ranks.remove(max_rank)
+        return max(ranks)
 
 
 def test_get_second_largest():
