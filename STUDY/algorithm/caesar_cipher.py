@@ -7,6 +7,7 @@ def make_caesar_cipher(word):
     for code in pw_codes:
         if int(code) <= int(z):
             password += chr(code)
+            # password + chr(code)만 하고 왜 맞는데 답이 틀리다고 나오지 계속 고민함. +=와 +는 다릅니다.
         else:
             password += chr(int(code) - int(z))
     return password
