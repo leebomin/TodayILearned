@@ -1,5 +1,6 @@
 def get_second_largest(ranks):
-    if len(set(ranks)) == 1:
+    ranks = list(set(ranks))
+    if len(ranks) == 1:
         return 'equality'
     else:
         max_rank = max(ranks)
