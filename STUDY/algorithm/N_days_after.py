@@ -19,10 +19,10 @@ from datetime import date
 from datetime import timedelta
 
 def the_day_after_n(n):
+    WEEKDAYS = '월화수목금토일'
     today = date.today()
-    weekdays = '월화수목금토일'
     after_n = today + timedelta(days=n)
-    return '{}요일'.format(weekdays[after_n.weekday()])
+    return '{}요일'.format(WEEKDAYS[after_n.weekday()])
 
 
 def test_the_day_after_n():

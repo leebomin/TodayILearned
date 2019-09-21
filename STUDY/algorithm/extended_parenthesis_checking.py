@@ -17,37 +17,72 @@
 제가 짠 코드: Expanded parenthesis problem
 '''
 
-def is_right_parenthesis(s, p_type):
-    OPENER, CLOSER = p_type
-    count = 0
-    for c in s :
-        if c == OPENER:
-            count += 1
-        elif c == CLOSER:
-            count -= 1
-        if count < 0:
-            return False
-    return count == 0
+# def is_right_parenthesis(s, p_type):
+#     OPENER, CLOSER = p_type
+#     count = 0
+#     for c in s:
+#         if c == OPENER:
+#             count += 1
+#         elif c == CLOSER:
+#             count -= 1
+#         if count < 0:
+#             return False
+#     return count == 0
+#
+# def is_right_parenthesis_extended(str):
+#     p_type = set(list(str))
+#     result = True
+#     if len(str) == 0:
+#         return False
+#
+#     if '(' in p_type or ')' in p_type:
+#         result = result and is_right_parenthesis(str, '()')
+#     if '[' in p_type or ']' in p_type:
+#         result = result and is_right_parenthesis(str, '[]')
+#     if '{' in p_type or '}' in p_type:
+#         result = result and is_right_parenthesis(str, '{}')
+#     return  result
 
-def is_right_parenthesis_extended(str):
-    p_type = set(list(str))
-    result = True
-    if len(str) == 0:
+#
+# def test_is_right_parenthesis_extended():
+#     assert is_right_parenthesis_extended('(}(]') == False
+#     assert is_right_parenthesis_extended('(())') == True
+#     assert is_right_parenthesis_extended('{{}}[') == False
+#     assert is_right_parenthesis_extended('{{}}[]') == True
+#     assert is_right_parenthesis_extended('{}}[]') == False
+#     assert is_right_parenthesis_extended('') == False
+
+
+
+def is_right_parenthesis(brackets):
+    if len(brackets) % 2 != 0:
+        return False
+    elif brackets[0] == ')':
         return False
 
-    if '(' in p_type or ')' in p_type:
-        result = result and is_right_parenthesis(str, '()')
-    if '[' in p_type or ']' in p_type:
-        result = result and is_right_parenthesis(str, '[]')
-    if '{' in p_type or '}' in p_type:
-        result = result and is_right_parenthesis(str, '{}')
-    return  result
+    stack = []
 
+    for bracket in brackets:
+        if bracket == '(':
+            stack.append('(')
+        elif bracket == ')':
+            if not stack:
+                return False
+            elif stack[-1] == '(':
+                stack.pop()
+            else:
+                return False
+    ​
+    if not stack:
+        return True
+    else:
+        return False
 
-def test_is_right_parenthesis_extended():
-    assert is_right_parenthesis_extended('(}(]') == False
-    assert is_right_parenthesis_extended('(())') == True
-    assert is_right_parenthesis_extended('{{}}[') == False
-    assert is_right_parenthesis_extended('{{}}[]') == True
-    assert is_right_parenthesis_extended('{}}[]') == False
-    assert is_right_parenthesis_extended('') == False
+print(is_right_parenthesis('()()()'))
+print(is_right_parenthesis('((()))'))
+print(is_right_parenthesis('(())()'))
+print(is_right_parenthesis('(('))
+print(is_right_parenthesis('))(('))
+print(is_right_parenthesis(')('))
+print(is_right_parenthesis('())('))
+​
