@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bc7d2d15-c3d6-4430-b7d6-80bd621db1dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STUDY/algorithm/second_largest.py" beforeDir="false" afterPath="$PROJECT_DIR$/STUDY/algorithm/second_largest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.second_largest">
+  <component name="RunManager" selected="Python tests.pytest in extended_parenthesis_checking.py">
     <configuration name="second_largest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TodayILearned" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,63 +67,63 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for scores_test.test_class_total" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for N_days_after.test_the_day_after_n" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="TodayILearned" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PYTHON/practice/190815" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/STUDY/algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;scores_test.test_class_total&quot;" />
+      <option name="_new_target" value="&quot;N_days_after.test_the_day_after_n&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test-first.test_less_number" type="tests" factoryName="py.test" temporary="true">
+    <configuration name="pytest for extended_parenthesis_checking.test_is_right_parenthesis_extended" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="TodayILearned" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PYTHON/practice/190816" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/STUDY/algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test-first.test_less_number&quot;" />
+      <option name="_new_target" value="&quot;extended_parenthesis_checking.test_is_right_parenthesis_extended&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_first.test_less_number" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in N_days_after.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="TodayILearned" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PYTHON/practice/190816" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/STUDY/algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_first.test_less_number&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/STUDY/algorithm/N_days_after.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in 190812_class_total.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in extended_parenthesis_checking.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="TodayILearned" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TIL/PYTHON/Assignment" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/STUDY/algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TIL/PYTHON/Assignment/190812_class_total.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/STUDY/algorithm/extended_parenthesis_checking.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -146,18 +145,18 @@
     <list>
       <item itemvalue="Python.second_largest" />
       <item itemvalue="Python tests.pytest in leebom" />
-      <item itemvalue="Python tests.pytest for scores_test.test_class_total" />
-      <item itemvalue="Python tests.pytest for test-first.test_less_number" />
-      <item itemvalue="Python tests.pytest for test_first.test_less_number" />
-      <item itemvalue="Python tests.pytest in 190812_class_total.py" />
+      <item itemvalue="Python tests.pytest in N_days_after.py" />
+      <item itemvalue="Python tests.pytest for N_days_after.test_the_day_after_n" />
+      <item itemvalue="Python tests.pytest in extended_parenthesis_checking.py" />
+      <item itemvalue="Python tests.pytest for extended_parenthesis_checking.test_is_right_parenthesis_extended" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in extended_parenthesis_checking.py" />
+        <item itemvalue="Python tests.pytest for extended_parenthesis_checking.test_is_right_parenthesis_extended" />
+        <item itemvalue="Python tests.pytest in N_days_after.py" />
+        <item itemvalue="Python tests.pytest for N_days_after.test_the_day_after_n" />
         <item itemvalue="Python.second_largest" />
-        <item itemvalue="Python tests.pytest in 190812_class_total.py" />
-        <item itemvalue="Python tests.pytest for test_first.test_less_number" />
-        <item itemvalue="Python tests.pytest for test-first.test_less_number" />
-        <item itemvalue="Python tests.pytest for scores_test.test_class_total" />
       </list>
     </recent_temporary>
   </component>
