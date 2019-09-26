@@ -5,7 +5,6 @@ def check_parentheses_pairs(ps):
 
     for p in list(ps):
         if p in open_ps:
-            print(p in open_ps)
             for_count.append(p)
         else:
             if len(for_count) == 0:
